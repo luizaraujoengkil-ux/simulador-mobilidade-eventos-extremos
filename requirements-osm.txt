@@ -1,9 +1,0 @@
-# ============================================================================
-# Dependências OPCIONAIS para ativar a malha viária REAL do OpenStreetMap.
-# Para usar no deploy, copie estas linhas para o final do requirements.txt.
-# Atenção: pode aumentar o tempo de build no Streamlit Community Cloud.
-# ============================================================================
-osmnx>=2.0,<3
-geopandas>=1.0
-shapely>=2.0
-pyproj>=3.6
