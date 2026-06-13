@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit (segredos NUNCA vão para o repositório)
+.streamlit/secrets.toml
+
+# Cache de download do OSMnx (criado em runtime na raiz)
+cache/
+
+# Saídas e caches gerados em runtime
+data/cache/*
+data/uploads/*
+data/exports/*
+outputs/maps/*
+outputs/reports/*
+outputs/scenarios/*
+*.log
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Mantém a estrutura de pastas vazias
+!**/.gitkeep

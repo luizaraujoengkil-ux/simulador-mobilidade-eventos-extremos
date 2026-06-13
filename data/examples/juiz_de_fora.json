@@ -1,0 +1,39 @@
+{
+  "study": {
+    "name": "Chuvas extremas e interdições viárias - Juiz de Fora/MG",
+    "city": "Juiz de Fora",
+    "uf": "MG",
+    "country": "Brasil",
+    "population": 573000,
+    "responsible": "Pedro Paulo Ferreira Peron",
+    "institution": "Instituto Militar de Engenharia - IME",
+    "date": "2026-06-13",
+    "study_type": "Evento múltiplo",
+    "mode": "básico",
+    "notes": "Exemplo inicial demonstrativo. Rede sintética para testes offline."
+  },
+  "area": {
+    "entry_type": "Ponto + raio (coordenada)",
+    "place_name": "Juiz de Fora, Minas Gerais, Brasil",
+    "lat": -21.7642,
+    "lon": -43.3496,
+    "collect_radius_km": 2.0,
+    "analysis_radius_km": 2.0,
+    "geofile_name": null,
+    "notes": "Recorte central de demonstração."
+  },
+  "points": [
+    {"point_id": "P001", "name": "Centro", "type": "centro", "lat": -21.7615, "lon": -43.3500, "population": 8000, "weight": 1.5, "priority": "alta", "notes": ""},
+    {"point_id": "P002", "name": "Santa Casa (Hospital)", "type": "hospital", "lat": -21.7700, "lon": -43.3450, "population": 0, "weight": 2.0, "priority": "crítica", "notes": ""},
+    {"point_id": "P003", "name": "Bairro Residencial", "type": "zona residencial", "lat": -21.7550, "lon": -43.3600, "population": 6000, "weight": 1.0, "priority": "média", "notes": ""},
+    {"point_id": "P004", "name": "Área de Risco (Encosta)", "type": "área de risco", "lat": -21.7720, "lon": -43.3560, "population": 1200, "weight": 1.0, "priority": "alta", "notes": ""},
+    {"point_id": "P005", "name": "Abrigo Municipal", "type": "abrigo", "lat": -21.7580, "lon": -43.3420, "population": 0, "weight": 1.0, "priority": "alta", "notes": ""},
+    {"point_id": "P006", "name": "Defesa Civil", "type": "Defesa Civil", "lat": -21.7660, "lon": -43.3520, "population": 0, "weight": 1.0, "priority": "crítica", "notes": ""}
+  ],
+  "events": [
+    {"event_id": "EV001", "name": "Alagamento Av. Central", "type": "alagamento", "severity": "alta", "impact_type": "parcial", "lat": -21.7630, "lon": -43.3490, "radius_m": 220.0, "speed_factor": 0.3, "extra_delay_min": 0.0, "duration": "2-4 h", "period": "chuva intensa", "notes": ""},
+    {"event_id": "EV002", "name": "Deslizamento bloqueando trecho", "type": "deslizamento", "severity": "crítica", "impact_type": "total", "lat": -21.7710, "lon": -43.3555, "radius_m": 160.0, "speed_factor": 0.15, "extra_delay_min": 0.0, "duration": "indeterminada", "period": "—", "notes": ""},
+    {"event_id": "EV003", "name": "Ponte interditada", "type": "ponte interditada", "severity": "alta", "impact_type": "total", "lat": -21.7600, "lon": -43.3450, "radius_m": 140.0, "speed_factor": 0.15, "extra_delay_min": 0.0, "duration": "vistoria", "period": "—", "notes": ""},
+    {"event_id": "EV004", "name": "Bloqueio parcial de via", "type": "via bloqueada", "severity": "média", "impact_type": "parcial", "lat": -21.7655, "lon": -43.3520, "radius_m": 180.0, "speed_factor": 0.5, "extra_delay_min": 0.0, "duration": "1-2 h", "period": "—", "notes": ""}
+  ]
+}

@@ -1,0 +1,5 @@
+# Normaliza finais de linha: LF no repositório (deploy roda em Linux)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary

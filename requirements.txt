@@ -1,0 +1,27 @@
+# ============================================================================
+# SIMCIV-Mob — dependências (deploy Streamlit Community Cloud)
+# Recomendado: Python 3.12 (selecione em "Advanced settings" no deploy).
+# ============================================================================
+
+# Núcleo da aplicação
+streamlit>=1.40
+pandas>=2.0
+numpy>=1.26
+networkx>=3.2
+
+# Mapas interativos
+folium>=0.16
+streamlit-folium>=0.20
+branca>=0.7
+
+# Gráficos
+plotly>=5.20
+
+# Rede viária real do OpenStreetMap (mapas das ruas reais)
+osmnx>=2.0,<3
+geopandas>=1.0
+shapely>=2.0
+pyproj>=3.6
+
+# Relatório e manual em PDF
+xhtml2pdf>=0.2.13
